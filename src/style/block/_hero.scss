@@ -1,0 +1,49 @@
+.bl_hero {
+    height: 100vh;
+    background-position: center center;
+    background: rgb(245,245,245);
+    background: linear-gradient(24deg, rgba(245,245,245,1) 0%, rgba(0,212,255,1) 0%, rgba(234,76,137,1) 100%); 
+}
+
+
+.bl_hero_inner {
+    max-width: $max-width-pc;
+    height: 100%;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+}
+
+.bl_hero_inner > svg {
+    position: absolute;
+    bottom: 10%;
+    right: 1.5rem;
+
+    @media screen and (max-width: $bp-md) {
+        display: none;
+    }
+}
+
+.bl_hero_textWrapper {
+    text-align: left;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    max-width: 100%;
+    > * + * {
+        margin-top: 3rem;
+    }
+}
+
+.bl_hero_title.el_lv1Heading {
+    color: $onPrimary;
+    line-height: 1.5;
+}
+
+.bl_hero_text {
+    color: $onPrimary;
+    font-size: $body1;
+    max-width: 480px;
+}

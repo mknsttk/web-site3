@@ -1,0 +1,18 @@
+.ly_footer {
+    background-color: $primary;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+
+    @media screen and (max-width: $bp-sm) {
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+}
+
+.ly_footer_inner {
+    max-width: $max-width-pc;
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+    margin-right: auto;
+    margin-left: auto;
+}

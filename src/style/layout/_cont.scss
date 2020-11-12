@@ -1,0 +1,10 @@
+.ly_cont {
+    max-width: $max-width-pc;
+    padding: 7.875rem 1.5rem;
+    margin-right: auto;
+    margin-left: auto;
+
+    @media screen and (max-width: $bp-md) {
+        padding: 4rem 1rem;
+    }
+}

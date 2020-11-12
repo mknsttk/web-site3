@@ -1,0 +1,72 @@
+// パレット
+$primary: #ea4c89;
+$secondary: #00d4ff;
+$primary-variant: #3dc2ff;
+$tertiary: #f9f871;
+
+$background: #000;
+
+$surface: #fff;
+// $surface-variant: hsla(0, 0%, 100%, .8);
+$surface-variant: rgba(255, 255, 255, .8);
+
+$onPrimary: #f5f5f5;
+$onSecondary: #f5f5f5;
+$onSurface: #000;
+$onBackground: #fff;
+
+
+// (https://material.io/design/color/text-legibility.html#text-types)
+// Dark text on light backgrounds
+// Dark text on light backgrounds (shown here as #000000 on #FFFFFF) applies the following opacity levels
+// ex. color: rgba($onBackground, $highEmphasis)
+// 透明度変更済みのcolorを変数に入れるかどうか
+// 右のページにてlegible(読みやすさ)、必要なopacityの確認ができる(https://material.io/resources/color/#!/?view.left=0&view.right=0)
+
+// helper text
+// (https://material.io/design/color/text-legibility.html#text-types)
+
+// (Icons and Other symbols)
+
+
+// タイポグラフィー　　　line-height,font-familyはリセットcssにあるがどうするか
+// $fontFamily: ;
+
+$body1: 1.25rem;
+$body2: 0.875rem;
+
+// $subtitle1: ;
+// $subtitle2: ;
+
+// $button: ;
+
+$caption: 0.875rem;
+
+// $overline: ;
+
+$h1: 3.5rem;
+$h2: 3rem;
+$h3: 2rem;
+$subtitle: 1.5rem;
+
+
+// シャドウ
+
+// z-index
+$z-header: 800;
+$z-drawer: 900;
+
+// ブレイクポイント
+$max-width-pc:1328px;
+$bp-md: 960px;
+$bp-sm: 720px;
+$bp-xsm: 375px;
+// max-width: 960px
+// max-width: 768px
+// max-width: 720px
+
+// シェイプ
+
+// トランジション
+
+// スペーシング

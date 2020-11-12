@@ -1,0 +1,10 @@
+.el_lv1Heading {
+    color: $onSurface;
+    font-size: $h1;
+    font-weight: bold;
+    letter-spacing: .15em;
+
+    @media screen and (max-width: $bp-md) {
+        font-size: ($h1 * 0.75);
+    }
+}

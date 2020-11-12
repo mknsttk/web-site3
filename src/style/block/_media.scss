@@ -1,0 +1,56 @@
+.bl_media {
+    display: flex;
+    position: relative;
+
+    @media screen and (max-width:$bp-md) {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+.bl_media_imgWrapper {
+    width: calc(50% - 0.75rem);
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    @media screen and (max-width: $bp-md) {
+        display: none;
+    }
+
+    > svg {
+        max-width: 100%;
+    }
+}
+
+.bl_media_textArea {
+    width: calc(50% - 0.75rem);
+    margin-left: 1.5rem;
+    @media screen and (max-width: $bp-md) {
+        width: 100%;
+        margin-left: 0;
+    }   
+}
+
+.bl_media_header {
+    > span {
+        color: $primary;
+        font-size: 1.5rem;
+    }
+
+    > * + * {
+        margin-top: 1.5rem;
+    }
+}
+
+.bl_media_title.el_lv1Heading {
+    color: $onBackground;
+    line-height: 1.5;
+}
+
+
+.bl_media_text {
+    color: $onBackground;
+    font-size: $body1;
+    margin-top: 3rem;
+}

@@ -1,0 +1,8 @@
+.el_lv2Heading {
+    font-size: $h2;
+    font-weight: bold;
+
+    @media screen and (max-width: $bp-md) {
+        font-size: ($h2 * 0.75);
+    }
+}
